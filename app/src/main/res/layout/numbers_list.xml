@@ -48,7 +48,7 @@
         android:backgroundTint="#FFFFFF"
         android:textColor="@color/black"
         android:onClick="returnMain"
-        android:text="Return"
+        android:text="Voltar"
       />
 
     </LinearLayout>

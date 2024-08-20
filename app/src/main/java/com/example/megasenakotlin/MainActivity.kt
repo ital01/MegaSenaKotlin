@@ -36,6 +36,12 @@ class MainActivity : AppCompatActivity() {
                 }, 500)
             }
         }
+
+        findViewById<Button>(R.id.button_go_to_list).setOnClickListener {
+            val intent = Intent(this, NumbersListActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun displayNumbers() {
